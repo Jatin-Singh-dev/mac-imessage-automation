@@ -1,0 +1,16 @@
+{
+  "name": "imessage-blaster",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Professional iMessage automation tool with safety features",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js blast",
+    "test:dry": "node index.js blast --test",
+    "watch": "node index.js watch"
+  },
+  "dependencies": {
+    "@photon-ai/imessage-kit": "^1.0.0",
+    "csv-parser": "^3.0.0"
+  }
+}

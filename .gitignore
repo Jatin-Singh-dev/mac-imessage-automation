@@ -1,0 +1,11 @@
+# Dependencies
+node_modules
+.DS_Store
+
+# Logs and Data
+data/contacts.csv
+data/blacklist.csv
+data/delivery_log.csv
+
+# Environment (if added later)
+.env
